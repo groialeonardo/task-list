@@ -24,8 +24,8 @@ export const TASKS: Task[] = [
 
   {
     id:4,
-    text:"Tomarme unos mates",
-    day: "Agosto 21 a las 11:00 hs",
+    text:"Viciar un rato",
+    day: "Agosto 27 a las 21:00 hs",
     reminder: true
   },
 
