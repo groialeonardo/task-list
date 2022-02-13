@@ -13,7 +13,8 @@ import { TASKS } from '../../mock-tasks';
 export class TaskItemComponent implements OnInit {
 
   @Input() task:Task = TASKS[0];
-  @Output() onDeleteEvent= new EventEmitter();
+  @Output() onDeleteEvent:EventEmitter<Task> = new EventEmitter();
+  @Output() onToogleReminderEvent:EventEmitter<Task>= new EventEmitter();
   faTimes = faTimes;
 
   constructor() { }
@@ -21,9 +22,12 @@ export class TaskItemComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  onDelete() {
-    this.onDeleteEvent.emit(this.task);
+  onDelete(task:Task) {
+    this.onDeleteEvent.emit(task);
 
   }
+  onToggle(task:Task) {
+    this.onToogleReminderEvent.emit(task);
 
+  }
 }

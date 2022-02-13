@@ -10,7 +10,7 @@ import { TASKS } from '../mock-tasks';
 })
 export class TaskService {
 
-  apiUrl = "http://localhost:5000/task";
+  apiUrl = "http://localhost:5000/tasks";
 
 
   constructor(
@@ -31,9 +31,7 @@ export class TaskService {
 
    return this.httpClient.delete<Task[]>(url)
 
-
-
-
   }
+
 
 }

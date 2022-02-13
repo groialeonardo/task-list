@@ -31,4 +31,8 @@ export class TasksComponent implements OnInit {
     )
   }
 
+  onToggleReminder(task:Task){
+    task.reminder = !task.reminder;
+  }
+
 }
