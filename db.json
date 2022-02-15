@@ -10,7 +10,7 @@
       "id": 2,
       "text": "Jugar Basket",
       "day": "Agosto 29 a las 21:00 hs",
-      "reminder": false
+      "reminder": true
     },
     {
       "id": 3,
