@@ -9,13 +9,19 @@
     {
       "id": 2,
       "text": "Jugar Basket",
-      "day": "Agosto 21 a las 21:00 hs",
-      "reminder": true
+      "day": "Agosto 29 a las 21:00 hs",
+      "reminder": false
+    },
+    {
+      "id": 3,
+      "text": "Jugar Basket",
+      "day": "Agosto 28 a las 22:00 hs",
+      "reminder": false
     },
     {
       "id": 4,
       "text": "Jugar Basket",
-      "day": "Agosto 21 a las 21:00 hs",
+      "day": "Agosto 29 a las 21:00 hs",
       "reminder": true
     }
   ]
