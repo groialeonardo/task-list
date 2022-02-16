@@ -10,7 +10,7 @@
       "id": 2,
       "text": "Jugar Basket",
       "day": "Agosto 29 a las 21:00 hs",
-      "reminder": false
+      "reminder": true
     },
     {
       "text": "Estudiar Angular",
@@ -29,6 +29,12 @@
       "day": "Noviembre 14 a las 13:00 hs",
       "reminder": true,
       "id": 5
+    },
+    {
+      "text": "Completar Formulario",
+      "day": "Octubre 24 a las 14:00 hs",
+      "reminder": false,
+      "id": 6
     }
   ]
 }
