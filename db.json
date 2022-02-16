@@ -10,19 +10,25 @@
       "id": 2,
       "text": "Jugar Basket",
       "day": "Agosto 29 a las 21:00 hs",
-      "reminder": true
-    },
-    {
-      "id": 3,
-      "text": "Jugar Basket",
-      "day": "Agosto 28 a las 22:00 hs",
       "reminder": false
     },
     {
-      "id": 4,
-      "text": "Jugar Basket",
-      "day": "Agosto 29 a las 21:00 hs",
-      "reminder": true
+      "text": "Estudiar Angular",
+      "day": "Agosto 30 a las 20:00 hs",
+      "reminder": false,
+      "id": 3
+    },
+    {
+      "text": "Estudiar SQL",
+      "day": "Noviembre 24 a las 13:00 hs",
+      "reminder": false,
+      "id": 4
+    },
+    {
+      "text": "Estudiar SQL",
+      "day": "Noviembre 14 a las 13:00 hs",
+      "reminder": true,
+      "id": 5
     }
   ]
 }
