@@ -35,6 +35,12 @@
       "day": "Octubre 24 a las 14:00 hs",
       "reminder": false,
       "id": 6
+    },
+    {
+      "text": "pepe",
+      "day": "grillo",
+      "reminder": true,
+      "id": 7
     }
   ]
 }
