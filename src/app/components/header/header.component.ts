@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Subscription } from 'rxjs';
 import { UiService } from 'src/app/services/ui.service';
+import { Route, Router } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -12,7 +13,10 @@ export class HeaderComponent implements OnInit {
   subcription?:Subscription;
   showAddTask:boolean = false;
 
-  constructor(private uiService:UiService) {
+  constructor(
+    private uiService:UiService,
+    private router:Router
+    ) {
    }
 
   ngOnInit(): void {
@@ -27,7 +31,12 @@ export class HeaderComponent implements OnInit {
     //llama al servicio para que maneje este click
     this.uiService.toggleAddTask()
 
+  }
 
+  //Obtiene un string desde el html para compararlo con la ruta actual. Si coincide con el string devuelve true.
+  //Se usa para esconder el boton cuando se sale de task component.
+  hasRoute(route:string){
+    return this.router.url === route;
   }
 
 }
