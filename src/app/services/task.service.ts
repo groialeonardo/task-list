@@ -26,10 +26,10 @@ export class TaskService {
 
   getTasks() :  Observable<Task[]> {
 
-    return this.httpClient.get<Task[]>(this.apiUrl)
+    /*return this.httpClient.get<Task[]>(this.apiUrl)*/
 
-    /* const task = of (TASKS) //Para traer desde archivo monk-task
-    return  task;*/
+    const task = of (TASKS) //Para traer desde archivo monk-task
+    return  task;
   }
 
   deleteTask(task:Task) : Observable<Task> {
