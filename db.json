@@ -1,34 +1,16 @@
 {
   "tasks": [
     {
-      "text": "sdasdasd",
-      "day": "groia",
-      "reminder": true,
+      "text": "Pedir que arreglen internet",
+      "day": "18/02/2022",
+      "reminder": false,
       "id": 1
     },
     {
-      "text": "leo",
-      "day": "kkkkk",
+      "text": "adasdas",
+      "day": "asdasdas",
       "reminder": true,
       "id": 2
-    },
-    {
-      "text": "leo",
-      "day": "kkkkk",
-      "reminder": true,
-      "id": 3
-    },
-    {
-      "text": "leo",
-      "day": "kkkkk",
-      "reminder": true,
-      "id": 4
-    },
-    {
-      "text": "leo",
-      "day": "kkkkk",
-      "reminder": true,
-      "id": 5
     }
   ]
 }
