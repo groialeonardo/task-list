@@ -1,46 +1,34 @@
 {
   "tasks": [
     {
-      "id": 1,
-      "text": "Jugar Basket",
-      "day": "Agosto 21 a las 21:00 hs",
-      "reminder": false
+      "text": "sdasdasd",
+      "day": "groia",
+      "reminder": true,
+      "id": 1
     },
     {
-      "id": 2,
-      "text": "Jugar Basket",
-      "day": "Agosto 29 a las 21:00 hs",
-      "reminder": true
+      "text": "leo",
+      "day": "kkkkk",
+      "reminder": true,
+      "id": 2
     },
     {
-      "text": "Estudiar Angular",
-      "day": "Agosto 30 a las 20:00 hs",
+      "text": "leo",
+      "day": "kkkkk",
       "reminder": true,
       "id": 3
     },
     {
-      "text": "Estudiar SQL",
-      "day": "Noviembre 24 a las 13:00 hs",
-      "reminder": false,
+      "text": "leo",
+      "day": "kkkkk",
+      "reminder": true,
       "id": 4
     },
     {
-      "text": "Estudiar SQL",
-      "day": "Noviembre 14 a las 13:00 hs",
-      "reminder": false,
+      "text": "leo",
+      "day": "kkkkk",
+      "reminder": true,
       "id": 5
-    },
-    {
-      "text": "Completar Formulario",
-      "day": "Octubre 24 a las 14:00 hs",
-      "reminder": true,
-      "id": 6
-    },
-    {
-      "text": "pepe",
-      "day": "grillo",
-      "reminder": true,
-      "id": 7
     }
   ]
 }
